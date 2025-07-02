@@ -20,8 +20,8 @@ To build a ticket-buying bot using Python and Selenium, while practicing Git for
     *   [x] Write basic script `main.py`.
     *   [x] Import necessary libraries.
     *   [x] Setup and start the browser driver.
-    *   [ ] Navigate to a target website.
-    *   [ ] Handle login.
+    *   [x] Navigate to a target website.
+    *   [x] Handle login.
     *   [ ] Implement ticket-grabbing logic.
 
 *   **Phase 3: Code Optimization & Version Control**
@@ -34,13 +34,5 @@ To build a ticket-buying bot using Python and Selenium, while practicing Git for
 
 *   **Last Session Date:** 2025年7月2日
 *   **Current File:** `main.py`
-*   **Progress:** The user has successfully written the initial lines to import libraries and set up the Selenium driver. The content of `main.py` should be:
-    ```python
-    from selenium import webdriver
-    from selenium.webdriver.chrome.service import Service
-    from webdriver_manager.chrome import ChromeDriverManager
-
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service)
-    ```
-*   **NEXT STEP:** Guide the user to add the next line of code to `main.py`, which is `driver.get("https://www.google.com")`, to navigate the browser to a specific website.
+*   **Progress:** The user has successfully set up the browser, navigated to Google, and added placeholder comments for the login functionality.
+*   **NEXT STEP:** Guide the user to implement the actual login functionality. This will involve identifying login elements (username, password fields, login button) and using Selenium to interact with them.
